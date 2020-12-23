@@ -5,8 +5,8 @@ import sys
 def main(dir_path):
 	os.chdir(dir_path)
 	os.system("attrib -s -h /s /d")
-	nom_exe = {}
-	v_exe = {}
+	nom_exe = {} # holds normal exe and potential viruses
+	v_exe = {} # holds files that starts with v and original files of corrupted files.
 	for path, _, files in os.walk(dir_path):
 		for file in files:
 			if file.endswith(".exe") or file.endswith(".ico") :
@@ -14,7 +14,6 @@ def main(dir_path):
 					v_exe[file] = os.path.join(path, file)
 				else:
 					nom_exe[file] = os.path.join(path, file)
-
 	count = 0
 	for file in v_exe:
 		if file[1: ] in nom_exe and (os.path.getsize(nom_exe[file[1:]]) in [0, 934400]):
