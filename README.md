@@ -1,6 +1,6 @@
 # 🎨 PAINT WIPER
 
-![demo_video](./assets/demo%vid.gif)
+![demo_video](./assets/demovid.gif)
 ## Intoduction
 Paint wiper is a CLI tool for cleaning files affected with the famous windows OS virus known as paint.exe.
 
