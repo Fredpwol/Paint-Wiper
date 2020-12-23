@@ -16,7 +16,7 @@ Once you've Navigated to the path section of the enviroment variables, copy the 
 
 create a new path variable and paste the copied path in it, then press ok to save it.
 
-![](./assets/envpath.png)
+![](./assets/envpath.jpg)
 
 And that's all your all setup, just remember not the change the folder location after this setup. If not repeat this step again.
 
