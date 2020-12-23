@@ -7,8 +7,8 @@ from main import main
 def get_v_data():
 	return "".join([ "o" for _ in range(934400)])
 
-exe_files = {"name.exe":"SOME", "vname.exe": get_v_data(), "school.exe":"ECHO", "vschool.exe":get_v_data(), "verse.exe":"VERSED", "ate.exe": "Eaten", "vate.exe": "vacare" }
-ico_files = {"main.ico": "ICOMAN", "vmain.ico": get_v_data() , "two.ico": "ICOTWO", "vtwo.ico" : "", "verm.ico" : get_v_data()}
+exe_files = {"vname.exe":"SOME", "name.exe": get_v_data(), "vschool.exe":"ECHO", "school.exe":get_v_data(), "verse.exe":"VERSED", "ate.exe": "Eaten", "vate.exe": "vacare" }
+ico_files = {"vmain.ico": "ICOMAN", "main.ico": get_v_data() , "vtwo.ico": "ICOTWO", "two.ico" : "", "verm.ico" : get_v_data()}
 TEST_DIR = os.path.join(Path(__file__).parent.resolve(), "test_dir")
 
 #TODO: label all file with type for virus or clean then hide all virus files.
