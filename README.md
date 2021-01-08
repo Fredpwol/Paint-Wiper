@@ -30,4 +30,4 @@ So the are some few things you need to know before using this tool.
 - if the virus file have been deleted before scan the original file will be restored with a `v` prefix before the filename e.g jam.exe will be vjam.exe.
 - The folder path that is passed most be absolute and not relative.
 
-<small>This is an independent project and has nothing to do with Microsoft Windows or WinRaR, any instance of this software used is for demo purpose only.</small>
+###### This is an independent project and has nothing to do with Microsoft Windows or WinRaR, any instance of this software used is for demo purpose only.
